@@ -15,7 +15,7 @@ function HireMeModal({ onClose, onRequest }) {
 			initial={{ opacity: 0 }}
 			animate={{ opacity: 1 }}
 			exit={{ opacity: 0 }}
-			className="fixed inset-0 z-30 transition-all duration-500"
+			className="fixed inset-0 z-30 transition-all duration-300"
 		>
 			{/* Modal Backdrop */}
 			<div className="bg-filter bg-black bg-opacity-50 fixed inset-0 w-full h-full z-20"></div>
@@ -51,7 +51,7 @@ function HireMeModal({ onClose, onRequest }) {
 									sm:px-6
 									py-2 bg-gray-600 text-primary-light hover:bg-ternary-dark dark:bg-gray-200 dark:text-secondary-dark dark:hover:bg-primary-light
 									rounded-md
-									focus:ring-1 focus:ring-indigo-900 duration-500"
+									focus:ring-1 focus:ring-indigo-900 duration-300"
 								aria-label="Close Modal"
 							>
 								<Button title="Close" />
