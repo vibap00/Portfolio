@@ -20,7 +20,7 @@ function ProjectsFilter({ setSelectProject }) {
                 rounded-lg
                 text-sm
                 sm:text-md
-                dark:font-medium
+                dark:
                 bg-secondary-light
                 dark:bg-ternary-dark
                 text-primary-dark

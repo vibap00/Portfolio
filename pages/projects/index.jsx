@@ -52,21 +52,21 @@ function Index() {
 		<PagesMetaHead title="윤동호 - 업무분야" />
   
 		<div className="mt-5 max-w-2xl mx-auto">
-		  <h2 className="font-bold text-5xl text-center">전문 분야 </h2>
+		  <h2 className="text-5xl text-center">전문 분야 </h2>
 		
 		  {expertiseSubfieldData.map((subfield) => (
 			<div key={subfield.id} className="text-center">
-			  <h3 className="font-medium text-3xl mt-20">{subfield.name}</h3>
+			  <h3 className="text-3xl mt-20">{subfield.name}</h3>
 			  <p className="mt-10 text-2xl text-gray-700 dark:text-gray-300">{subfield.description}</p>
 			</div>
 		  ))}
 
 		<div className="mt-28">
-		  <h2 className="font-bold text-5xl text-center"> 일반 분야 </h2>
+		  <h2 className="text-5xl text-center"> 일반 분야 </h2>
 
 		{expertiseSubfieldData2.map((subfield) => (
   			<div key={subfield.id} className="text-center">
-			  <h3 className="font-medium text-3xl mt-20">{subfield.name}</h3>
+			  <h3 className="text-3xl mt-20">{subfield.name}</h3>
 			  <p className="mt-10 text-2xl text-gray-700 dark:text-gray-300">{subfield.description}</p>
   			</div>
 		  ))}

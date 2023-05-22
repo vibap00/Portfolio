@@ -8,7 +8,7 @@ const FormInput = ({
 	ariaLabelName,
 }) => {
 	return (
-		<div className="font-general-regular mb-4">
+		<div className="mb-4">
 			<label
 				className="block text-lg text-primary-dark dark:text-primary-light mb-1"
 				htmlFor={labelFor}

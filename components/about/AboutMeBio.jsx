@@ -19,7 +19,7 @@ function AboutMeBio() {
   <div className="w-full sm:w-3/4 text-left flex flex-wrap">
     {aboutMe.map((bio) => (
       <p
-        className="mb-4 text-ternary-dark dark:text-ternary-light text-lg w-1/2 font-regular"
+        className="mb-4 text-ternary-dark dark:text-ternary-light text-lg w-1/2"
         key={bio.id}
       >
         &bull; {bio.bio}

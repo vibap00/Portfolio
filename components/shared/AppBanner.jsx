@@ -19,7 +19,7 @@ function AppBanner() {
 						duration: 0.9,
 						delay: 0.1,
 					}}
-					className="font-general-semibold text-2xl lg:text-3xl xl:text-5xl text-center sm:text-left text-ternary-dark dark:text-primary-light uppercase"
+					className="text-2xl lg:text-3xl xl:text-5xl text-center sm:text-left text-ternary-dark dark:text-primary-light uppercase"
 				>
 					윤동호
 				</motion.h1>
@@ -31,7 +31,7 @@ function AppBanner() {
 						duration: 0.9,
 						delay: 0.1,
 					}}
-					className="font-general-semibold mt-4 text-2xl lg:text-3xl xl:text-4xl text-center sm:text-left text-ternary-dark dark:text-primary-light uppercase"
+					className="mt-4 text-2xl lg:text-3xl xl:text-4xl text-center sm:text-left text-ternary-dark dark:text-primary-light uppercase"
 				>
 					법무법인YK 전문위원
 				</motion.h1>
@@ -43,7 +43,7 @@ function AppBanner() {
 						duration: 0.9,
 						delay: 0.2,
 					}}
-					className="font-general-medium mt-8 text-lg md:text-xl lg:text-2xl xl:text-3xl text-center sm:text-left leading-normal text-gray-500 dark:text-gray-200 mr-4"
+					className="mt-8 text-lg md:text-xl lg:text-2xl xl:text-3xl text-center sm:text-left leading-normal text-gray-500 dark:text-gray-200 mr-4"
 				>
 					재해보상 / 소청심사 전문
 				</motion.p>

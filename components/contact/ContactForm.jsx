@@ -13,10 +13,10 @@ function ContactForm() {
 					}}
 					className="max-w-xl m-4 p-6 sm:p-10 bg-secondary-light dark:bg-secondary-dark rounded-xl shadow-xl text-left"
 				>
-					<p className="font-general-medium text-primary-dark dark:text-primary-light text-2xl mb-4">
+					<p className="text-primary-dark dark:text-primary-light text-2xl mb-4">
 						상담
 					</p>
-					<p className="font-general-medium text-primary-dark dark:text-primary-light text-medium mb-12">
+					<p className="text-primary-dark dark:text-primary-light text-medium mb-12">
 						(작성하신 내용이 dh3yun@naver.com로 자동 전달됩니다)
 					</p>
 
@@ -67,7 +67,7 @@ function ContactForm() {
 					</div>
 
 					<div className="mt-6">
-						<span className="font-general-medium  px-6 py-4 text-white text-center font-medium tracking-wider bg-indigo-500 hover:bg-indigo-600 focus:ring-1 focus:ring-indigo-900 rounded-lg mt-6 duration-500">
+						<span className="px-6 py-4 text-white text-center tracking-wider bg-indigo-500 hover:bg-indigo-600 focus:ring-1 focus:ring-indigo-900 rounded-lg mt-6 duration-500">
 							<Button
 								title="발송"
 								type="submit"
