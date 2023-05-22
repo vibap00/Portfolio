@@ -72,7 +72,7 @@ function AppBanner() {
 						'/images/profile_main.jpg' 
 					}
 					width="80%" height="80%" 
-					alt="Developer"
+					alt="profile_main.jpg"
 				/>
 			</div>
 		</motion.section>
