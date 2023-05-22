@@ -10,7 +10,7 @@ const contacts = [
 	},
 	{
 		id: 2,
-		name: '화면 우측 상단의 직통전화 클릭',
+		name: '화면 상단의 직통전화 클릭',
 		icon: <FiPhone />,
 	},
 	{
