@@ -16,8 +16,8 @@ function AppBanner() {
 					animate={{ opacity: 1 }}
 					transition={{
 						ease: 'easeInOut',
-						duration: 0.9,
-						delay: 0.1,
+						duration: 0.7,
+						delay: 0.5,
 					}}
 					className="text-2xl lg:text-3xl xl:text-5xl text-center sm:text-left text-ternary-dark dark:text-primary-light uppercase"
 				>
@@ -28,8 +28,8 @@ function AppBanner() {
 					animate={{ opacity: 1 }}
 					transition={{
 						ease: 'easeInOut',
-						duration: 0.9,
-						delay: 0.1,
+						duration: 0.7,
+						delay: 0.7,
 					}}
 					className="mt-4 text-2xl lg:text-3xl xl:text-4xl text-center sm:text-left text-ternary-dark dark:text-primary-light uppercase"
 				>
@@ -40,8 +40,8 @@ function AppBanner() {
 					animate={{ opacity: 1 }}
 					transition={{
 						ease: 'easeInOut',
-						duration: 0.9,
-						delay: 0.2,
+						duration: 0.7,
+						delay: 0.9,
 					}}
 					className="mt-8 text-lg md:text-xl lg:text-2xl xl:text-3xl text-center sm:text-left leading-normal text-gray-500 dark:text-gray-200 mr-4"
 				>
@@ -52,8 +52,8 @@ function AppBanner() {
 					animate={{ opacity: 1 }}
 					transition={{
 						ease: 'easeInOut',
-						duration: 0.9,
-						delay: 0.3,
+						duration: 0.7,
+						delay: 0.1,
 					}}
 					className="flex justify-center sm:block"
 				>
