@@ -3,6 +3,8 @@ import Link from 'next/link';
 import { motion } from 'framer-motion';
 import { FiX, FiMenu} from 'react-icons/fi';
 import { RiHomeFill } from 'react-icons/ri';
+import logo from '../../public/images/main_logo.jpg';
+import Image from 'next/image';
 import HireMeModal from '../HireMeModal';
 import useThemeSwitcher from '../../hooks/useThemeSwitcher';
 
@@ -46,18 +48,14 @@ function AppHeader() {
 				<div className="flex justify-between items-center px-4 sm:px-0">
 					<div>
 						<Link href="/">
-								{/*<Image
-									src={dh_icon}
-									className="w-20 cursor-pointer"
-									alt="Dark Logo"
-									width={50}
-									height={20}
-								/> */}
+								<Image
+									src={logo}
+									className="w-30 cursor-pointer"
+									alt="Logo"
+									width={180}
+									height={90}
+								/> 
 								
-  						<div className="flex items-center text-2xl">
-    						<RiHomeFill className="mr-2" />
-    								메인화면
-  						</div>
 						</Link>
 					</div>
 			
