@@ -54,7 +54,7 @@ function AppHeader() {
 									height={20}
 								/> */}
 								
-  						<div className="flex items-center text-2xl font-bold">
+  						<div className="flex items-center text-2xl font-general-bold">
     						<RiHomeFill className="mr-2" />
     								메인화면
   						</div>
@@ -113,7 +113,7 @@ function AppHeader() {
 					<div className="border-t-2 pt-3 sm:pt-0 sm:border-t-0 border-primary-light dark:border-secondary-dark">
 						<button
 							onClick={showHireMeModal}
-							className="font-general-medium sm:hidden block text-left text-md bg-indigo-500 hover:bg-indigo-600 text-white shadow-sm rounded-sm px-4 py-2 mt-2 duration-300 w-24"
+							className="font-general-bold sm:hidden block text-left text-md bg-indigo-500 hover:bg-indigo-600 text-white shadow-sm rounded-sm px-4 py-2 mt-2 duration-300 w-24"
 							aria-label="Hire Me Button"
 						>
 							직통전화

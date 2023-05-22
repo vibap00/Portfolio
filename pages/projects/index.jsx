@@ -51,7 +51,7 @@ function Index() {
 
 		<PagesMetaHead title="윤동호 - 업무분야" />
   
-		<div className="mt-8 max-w-2xl mx-auto">
+		<div className="mt-5 max-w-2xl mx-auto">
 		  <h2 className="font-bold text-5xl text-center">전문 분야 </h2>
 		
 		  {expertiseSubfieldData.map((subfield) => (
