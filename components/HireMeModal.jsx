@@ -37,7 +37,7 @@ function HireMeModal({ onClose, onRequest }) {
 								className="max-w-xl m-4 text-left"
 							>
 								
-								<div className="text-3xl mt-6 mb-8">
+								<div className="text-2xl mt-6 mb-8">
 									010 - 5752 - 7191
 								</div>
 		

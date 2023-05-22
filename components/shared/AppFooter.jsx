@@ -24,7 +24,10 @@ function AppFooter() {
 				{/* Footer social links */}
 				<div className="flex flex-col justify-center items-center mb-12 sm:mb-28">
 					<p className="text-3xl sm:text-3xl text-primary-dark dark:text-primary-light mb-5">
-						카카오톡 / 텔래그램 익명 상담 
+						카카오톡 / 텔래그램 
+					</p>
+					<p className="text-3xl sm:text-3xl text-primary-dark dark:text-primary-light mb-5">
+						오픈채팅 상담 
 					</p>
 					<ul className="flex gap-4 sm:gap-8">
 						{socialLinks.map((link) => (

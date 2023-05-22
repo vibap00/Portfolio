@@ -22,7 +22,7 @@ const expertiseSubfieldData2 = [
 	{
 	  id: 2,
 	  name: '일반 상담',
-	  description: '익명 상담 가능. 상담 후 사안에 따른 담당 전문가 및 변호사 연결',
+	  description: '익명 상담 가능. 상담 후 사안에 따른 담당 전문가 및 변호사 신속 연결',
 	},
 	{
 		id: 1,

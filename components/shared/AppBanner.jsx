@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 
 function AppBanner() {
-	
+
 
 	return (
 		<motion.section
@@ -10,7 +10,7 @@ function AppBanner() {
 			transition={{ ease: 'easeInOut', duration: 0.9, delay: 0.2 }}
 			className="flex flex-col sm:justify-between items-center sm:flex-row mt-5 md:mt-2"
 		>
-			<div className="w-full md:w-1/3 text-center">
+			<div className="w-full md:w-1/3 items-center text-center">
 				<motion.h1
 					initial={{ opacity: 0 }}
 					animate={{ opacity: 1 }}
@@ -43,22 +43,11 @@ function AppBanner() {
 						duration: 0.7,
 						delay: 0.9,
 					}}
-					className="mt-8 text-lg md:text-xl lg:text-2xl xl:text-3xl text-center sm:text-left leading-normal text-gray-500 dark:text-gray-200 mr-4"
+					className="mt-6 text-lg md:text-xl lg:text-2xl xl:text-3xl text-between sm:text-left leading-normal text-gray-500 dark:text-gray-200"
 				>
 					재해보상 / 소청심사 전문
 				</motion.p>
-				<motion.div
-					initial={{ opacity: 0 }}
-					animate={{ opacity: 1 }}
-					transition={{
-						ease: 'easeInOut',
-						duration: 0.7,
-						delay: 0.1,
-					}}
-					className="flex justify-center sm:block"
-				>
-					
-				</motion.div>
+
 			</div>
 			<div
 				initial={{ opacity: 0, y: -180 }}
@@ -69,9 +58,9 @@ function AppBanner() {
 				<img
 					layout="responsive"
 					src={
-						'/images/profile_main.jpg' 
+						'/images/profile_main.jpg'
 					}
-					width="80%" height="80%" 
+					width="80%" height="80%"
 					alt="profile_main.jpg"
 				/>
 			</div>
