@@ -2,7 +2,7 @@ import {
 	RiKakaoTalkFill,
 	RiTelegramFill,
 } from 'react-icons/ri';
-import AppFooterCopyright from './AppFooterCopyright';
+
 
 const socialLinks = [
 	{

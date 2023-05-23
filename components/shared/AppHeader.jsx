@@ -44,7 +44,7 @@ function AppHeader() {
 			className={`sm:container sm:mx-auto ${showBorder ? "border-b border-gray-300" : "border-b-0"} sm:border-b-0`}
 		>
 			{/* Header */}
-			<div className="z-10 max-w-screen-lg xl:max-w-screen-xl block sm:flex sm:justify-between sm:items-center py-6">
+			<div className="z-10 max-w-screen-lg xl:max-w-screen-xl block sm:flex sm:justify-between sm:items-center sm:mr-12 py-6">
 				{/* Header menu links and small screen hamburger menu */}
 				<div className="flex justify-between items-center px-4 sm:px-0">
 					<div>
@@ -153,9 +153,7 @@ function AppHeader() {
 						>
 							직통전화
 						</button>
-					</div>
-
-					{/* Theme switcher large screen */}
+					</div>	
 				</div>
 		
 			<div>

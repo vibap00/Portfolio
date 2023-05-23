@@ -9,7 +9,7 @@ function about() {
 
 			<motion.div
 				initial={{ opacity: 0 }}
-				animate={{ opacity: 1, delay: 7 }}
+				animate={{ opacity: 1, delay: 17 }}
 				exit={{ opacity: 0 }}
 				className="container mx-auto mb-12"
 			>
