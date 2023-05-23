@@ -44,7 +44,7 @@ function AppHeader() {
 			className={`sm:container sm:mx-auto ${showBorder ? "border-b border-gray-300" : "border-b-0"} sm:border-b-0`}
 		>
 			{/* Header */}
-			<div className="z-10 max-w-screen-lg xl:max-w-screen-xl block sm:flex sm:justify-between sm:items-center sm:mr-16 lg:mr-6 py-6">
+			<div className="z-10 max-w-screen-lg xl:max-w-screen-xl block sm:flex sm:justify-between sm:items-center sm:mr-4 lg:mr-6 py-6">
 				{/* Header menu links and small screen hamburger menu */}
 				<div className="flex justify-between items-center px-4 sm:px-0">
 					<div>
@@ -60,9 +60,7 @@ function AppHeader() {
 						</Link>
 					</div>
 			
-					{/* Theme switcher small screen */}
 					
-
 					{/* Small screen hamburger menu */}
 					<div className="sm:hidden">
 						<button
@@ -112,7 +110,7 @@ function AppHeader() {
 					<div className="border-t-2 pt-3 sm:pt-0 sm:border-t-0 border-primary-light dark:border-secondary-dark">
 						<button
 							onClick={showHireMeModal}
-							className="text-base bg-cyan-900 justify-start hover:bg-cyan-900 text-white shadow-sm rounded px-5 py-2.5 duration-300"
+							className="text-base bg-cyan-900 justify-end sm:justify-end lg:justify-end hover:bg-cyan-900 text-white shadow-sm rounded px-5 py-2.5 duration-300"
 							aria-label="Hire Me Button"
 						>
 							직통전화
@@ -145,7 +143,7 @@ function AppHeader() {
 
 				{/* Header right section buttons */}
 			
-					<div className="hidden md:flex">
+					<div className="hidden sm:flex">
 						<button
 							onClick={showHireMeModal}
 							className="text-base bg-cyan-900 justify-start hover:bg-cyan-900 text-white shadow-sm rounded px-5 py-2.5 duration-300"
