@@ -47,27 +47,27 @@ function Index() {
 		}}
 		className="container mx-auto flex flex-col-reverse lg:flex-row py-5 lg:py-10 lg:mt-5"
 	>
-	  <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+	  <div className="container mx-auto px-4 sm:px-6 lg:px-8 mb-12">
 
 		<PagesMetaHead title="윤동호 - 업무분야" />
   
-		<div className="mt-5 max-w-2xl mx-auto">
-		  <h2 className="text-5xl text-center">전문 분야 </h2>
+		<div className="mt-12 md:mt-16 lg:mt-8 max-w-2xl mx-auto">
+		  <h2 className="text-4xl md:text-5xl lg:text-5xl text-center">전문 분야 </h2>
 		
 		  {expertiseSubfieldData.map((subfield) => (
 			<div key={subfield.id} className="text-center">
-			  <h3 className="text-3xl mt-20">{subfield.name}</h3>
-			  <p className="mt-10 text-2xl text-gray-700 dark:text-gray-300">{subfield.description}</p>
+			  <h3 className="text-3xl md:text-4xl lg:text-4xl mt-20">{subfield.name}</h3>
+			  <p className="mt-10 text-2xl md:text-3xl lg:text-3xl text-gray-700 dark:text-gray-300">{subfield.description}</p>
 			</div>
 		  ))}
 
 		<div className="mt-28">
-		  <h2 className="text-5xl text-center"> 일반 분야 </h2>
+		  <h2 className="text-4xl md:text-5xl lg:text-5xl text-center"> 일반 분야 </h2>
 
 		{expertiseSubfieldData2.map((subfield) => (
   			<div key={subfield.id} className="text-center">
-			  <h3 className="text-3xl mt-20">{subfield.name}</h3>
-			  <p className="mt-10 text-2xl text-gray-700 dark:text-gray-300">{subfield.description}</p>
+			  <h3 className="text-3xl md:text-4xl lg:text-4xl mt-20">{subfield.name}</h3>
+			  <p className="mt-10 text-2xl md:text-3xl lg:text-3xl text-gray-700 dark:text-gray-300">{subfield.description}</p>
   			</div>
 		  ))}
 			</div>

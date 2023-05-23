@@ -17,7 +17,7 @@ function contact() {
 					duration: 0.5,
 					delay: 0.1,
 				}}
-				className="container mx-auto flex flex-col-reverse lg:flex-row py-5 lg:py-10 lg:mt-5"
+				className="container mx-auto flex flex-col-reverse lg:flex-row py-5 lg:py-10 ml-0 md:ml-20 lg:justify-center lg:mt-5"
 			>
 				{/* <ContactForm /> */}
 

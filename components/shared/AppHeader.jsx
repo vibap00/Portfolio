@@ -2,7 +2,6 @@ import { useState } from 'react';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
 import { FiX, FiMenu} from 'react-icons/fi';
-import { RiHomeFill } from 'react-icons/ri';
 import logo from '../../public/images/main_logo.jpg';
 import Image from 'next/image';
 import HireMeModal from '../HireMeModal';
@@ -11,6 +10,7 @@ import useThemeSwitcher from '../../hooks/useThemeSwitcher';
 function AppHeader() {
 	const [showMenu, setShowMenu] = useState(false);
 	const [showModal, setShowModal] = useState(false);
+	const [showBorder, setShowBorder] = useState(true);
 	const [activeTheme, setTheme] = useThemeSwitcher();
 
 	function toggleMenu() {
@@ -19,6 +19,7 @@ function AppHeader() {
 		} else {
 			setShowMenu(false);
 		}
+		setShowBorder(!showBorder);
 	}
 
 	function showHireMeModal() {
@@ -40,7 +41,7 @@ function AppHeader() {
 			initial={{ opacity: 0 }}
 			animate={{ opacity: 1 }}
 			id="nav"
-			className="sm:container sm:mx-auto"
+			className={`sm:container sm:mx-auto ${showBorder ? "border-b border-gray-300" : "border-b-0"} sm:border-b-0`}
 		>
 			{/* Header */}
 			<div className="z-10 max-w-screen-lg xl:max-w-screen-xl block sm:flex sm:justify-between sm:items-center py-6">
@@ -53,7 +54,7 @@ function AppHeader() {
 									className="w-30 cursor-pointer"
 									alt="Logo"
 									width={180}
-									height={90}
+									height={90}									
 								/> 
 								
 						</Link>
@@ -93,17 +94,17 @@ function AppHeader() {
 							: 'hidden'
 					}
 				>
-					<div className="block text-left text-lg text-primary-dark dark:text-ternary-light hover:text-secondary-dark dark:hover:text-secondary-light  sm:mx-4 mb-2 sm:py-2">
+					<div className="block text-left text-lg md:text-lg lg:text-xl text-primary-dark dark:text-ternary-light hover:text-secondary-dark dark:hover:text-secondary-light  sm:mx-4 mb-2 sm:py-2">
 						<Link href="/projects" aria-label="Projects">
 							업무분야
 						</Link>
 					</div>
-					<div className="block text-left text-lg text-primary-dark dark:text-ternary-light hover:text-secondary-dark dark:hover:text-secondary-light  sm:mx-4 mb-2 sm:py-2 border-t-2 pt-3 sm:pt-2 sm:border-t-0 border-primary-light dark:border-secondary-dark">
+					<div className="block text-left text-lg md:text-lg lg:text-xl text-primary-dark dark:text-ternary-light hover:text-secondary-dark dark:hover:text-secondary-light  sm:mx-4 mb-2 sm:py-2 border-t-2 pt-3 sm:pt-2 sm:border-t-0 border-primary-light dark:border-secondary-dark">
 						<Link href="/about" aria-label="About Me">
 							약력
 						</Link>
 					</div>
-					<div className="block text-left text-lg text-primary-dark dark:text-ternary-light hover:text-secondary-dark dark:hover:text-secondary-light  sm:mx-4 mb-2 sm:py-2 border-t-2 pt-3 sm:pt-2 sm:border-t-0 border-primary-light dark:border-secondary-dark">
+					<div className="block text-left text-lg md:text-lg lg:text-xl text-primary-dark dark:text-ternary-light hover:text-secondary-dark dark:hover:text-secondary-light  sm:mx-4 mb-2 sm:py-2 border-t-2 pt-3 sm:pt-2 sm:border-t-0 border-primary-light dark:border-secondary-dark">
 						<Link href="/contact" aria-label="Contact">
 							상담
 						</Link>
@@ -111,7 +112,7 @@ function AppHeader() {
 					<div className="border-t-2 pt-3 sm:pt-0 sm:border-t-0 border-primary-light dark:border-secondary-dark">
 						<button
 							onClick={showHireMeModal}
-							className="sm:hidden block text-left text-md bg-indigo-500 hover:bg-indigo-600 text-white shadow-sm rounded-sm px-4 py-2 mt-2 duration-300 w-24"
+							className="text-base bg-cyan-900 justify-start hover:bg-cyan-900 text-white shadow-sm rounded px-5 py-2.5 duration-300"
 							aria-label="Hire Me Button"
 						>
 							직통전화
@@ -122,20 +123,20 @@ function AppHeader() {
 				{/* Header links large screen */}
 				<div className="hidden m-0 sm:ml-4 mt-5 sm:mt-3 sm:flex p-5 sm:p-0 justify-center items-center shadow-lg sm:shadow-none">
 					<div
-						className="block text-left text-lg text-primary-dark dark:text-ternary-light hover:text-secondary-dark dark:hover:text-secondary-light  sm:mx-4 mb-2 sm:py-2"
+						className="block text-left text-lg md:text-lg lg:text-xl text-primary-dark dark:text-ternary-light hover:text-secondary-dark dark:hover:text-secondary-light  sm:mx-4 mb-2 sm:py-2"
 						aria-label="Projects"
 					>
 						<Link href="/projects">업무분야</Link>
 					</div>
 					<div
-						className="block text-left text-lg text-primary-dark dark:text-ternary-light hover:text-secondary-dark dark:hover:text-secondary-light  sm:mx-4 mb-2 sm:py-2"
+						className="block text-left text-lg md:text-lg lg:text-xl text-primary-dark dark:text-ternary-light hover:text-secondary-dark dark:hover:text-secondary-light  sm:mx-4 mb-2 sm:py-2"
 						aria-label="About Me"
 					>
 						<Link href="/about">약력</Link>
 					</div>
 
 					<div
-						className="block text-left text-lg text-primary-dark dark:text-ternary-light hover:text-secondary-dark dark:hover:text-secondary-light  sm:mx-4 mb-2 sm:py-2"
+						className="block text-left text-lg md:text-lg lg:text-xl text-primary-dark dark:text-ternary-light hover:text-secondary-dark dark:hover:text-secondary-light  sm:mx-4 mb-2 sm:py-2"
 						aria-label="Contact"
 					>
 						<Link href="/contact">상담</Link>
@@ -143,11 +144,11 @@ function AppHeader() {
 				</div>
 
 				{/* Header right section buttons */}
-				<div className="hidden sm:flex justify-between items-center flex-col md:flex-row">
+			
 					<div className="hidden md:flex">
 						<button
 							onClick={showHireMeModal}
-							className="text-md bg-indigo-500 hover:bg-indigo-600 text-white shadow-sm rounded-md px-5 py-2.5 duration-300"
+							className="text-base bg-cyan-900 justify-start hover:bg-cyan-900 text-white shadow-sm rounded px-5 py-2.5 duration-300"
 							aria-label="Hire Me Button"
 						>
 							직통전화
@@ -156,7 +157,7 @@ function AppHeader() {
 
 					{/* Theme switcher large screen */}
 				</div>
-			</div>
+		
 			<div>
 				{showModal ? (
 					<HireMeModal
