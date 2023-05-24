@@ -92,22 +92,22 @@ function AppHeader() {
 							: 'hidden'
 					}
 				>
-					<div className="block text-left text-lg sm:text-base md:text-lg lg:text-xl text-primary-dark dark:text-ternary-light hover:text-secondary-dark dark:hover:text-secondary-light  sm:mx-4 md:mx-2 mb-2 sm:py-2 whitespace-nowrap">
+					<div className="block text-left text-lg sm:text-base md:text-lg lg:text-xl text-primary-dark dark:text-ternary-light hover:text-secondary-dark dark:hover:text-secondary-light  sm:mx-4 mb-2 sm:py-2">
 						<Link href="/projects" aria-label="Projects">
 							업무분야
 						</Link>
 					</div>
-					<div className="block text-left text-lg sm:text-base md:text-lg lg:text-xl text-primary-dark dark:text-ternary-light hover:text-secondary-dark dark:hover:text-secondary-light  sm:mx-4 md:mx-2 mb-2 sm:py-2 whitespace-nowrap border-t-2 pt-3 sm:pt-2 sm:border-t-0 border-primary-light dark:border-secondary-dark">
+					<div className="block text-left text-lg sm:text-base md:text-lg lg:text-xl text-primary-dark dark:text-ternary-light hover:text-secondary-dark dark:hover:text-secondary-light  sm:mx-4 mb-2 sm:py-2 border-t-2 pt-3 sm:pt-2 sm:border-t-0 border-primary-light dark:border-secondary-dark">
 						<Link href="/about" aria-label="About Me">
 							약력
 						</Link>
 					</div>
-					<div className="block text-left text-lg sm:text-base md:text-lg lg:text-xl text-primary-dark dark:text-ternary-light hover:text-secondary-dark dark:hover:text-secondary-light  sm:mx-4 md:mx-2 mb-2 sm:py-2 whitespace-nowrap border-t-2 pt-3 sm:pt-2 sm:border-t-0 border-primary-light dark:border-secondary-dark">
+					<div className="block text-left text-lg sm:text-base md:text-lg lg:text-xl text-primary-dark dark:text-ternary-light hover:text-secondary-dark dark:hover:text-secondary-light  sm:mx-4 mb-2 sm:py-2 border-t-2 pt-3 sm:pt-2 sm:border-t-0 border-primary-light dark:border-secondary-dark">
 						<Link href="/contact" aria-label="Contact">
 							상담
 						</Link>
 					</div>
-					<div className="border-t-2 pt-3 sm:pt-0 sm:border-t-0 border-primary-light dark:border-secondary-dark">
+					<div className="hidden border-t-2 pt-3 sm:pt-0 sm:border-t-0 border-primary-light dark:border-secondary-dark">
 						<button
 							onClick={showHireMeModal}
 							className="sm:text-small md:text-base bg-cyan-900 justify-end sm:justify-end lg:justify-end hover:bg-cyan-900 text-white shadow-sm rounded px-5 py-2.5 duration-300"
@@ -121,20 +121,20 @@ function AppHeader() {
 				{/* Header links large screen */}
 				<div className="hidden m-0 sm:ml-4 mt-5 sm:mt-3 sm:flex p-5 sm:p-0 justify-center items-center shadow-lg sm:shadow-none">
 					<div
-						className="block text-left text-lg sm:text-base md:text-lg lg:text-xl text-primary-dark dark:text-ternary-light hover:text-secondary-dark dark:hover:text-secondary-light  sm:mx-4 md:mx-2 mb-2 sm:py-2 whitespace-nowrap"
+						className="block text-left text-lg sm:text-base md:text-lg lg:text-xl text-primary-dark dark:text-ternary-light hover:text-secondary-dark dark:hover:text-secondary-light  sm:mx-4 mb-2 sm:py-2"
 						aria-label="Projects"
 					>
 						<Link href="/projects">업무분야</Link>
 					</div>
 					<div
-						className="block text-left text-lg sm:text-base md:text-lg lg:text-xl text-primary-dark dark:text-ternary-light hover:text-secondary-dark dark:hover:text-secondary-light  sm:mx-4 md:mx-2 mb-2 sm:py-2 whitespace-nowrap"
+						className="block text-left text-lg sm:text-base md:text-lg lg:text-xl text-primary-dark dark:text-ternary-light hover:text-secondary-dark dark:hover:text-secondary-light  sm:mx-4 mb-2 sm:py-2"
 						aria-label="About Me"
 					>
 						<Link href="/about">약력</Link>
 					</div>
 
 					<div
-						className="block text-left text-lg sm:text-base md:text-lg lg:text-xl text-primary-dark dark:text-ternary-light hover:text-secondary-dark dark:hover:text-secondary-light  sm:mx-4 md:mx-2 mb-2 sm:py-2 whitespace-nowrap"
+						className="block text-left text-lg sm:text-base md:text-lg lg:text-xl text-primary-dark dark:text-ternary-light hover:text-secondary-dark dark:hover:text-secondary-light  sm:mx-4 mb-2 sm:py-2"
 						aria-label="Contact"
 					>
 						<Link href="/contact">상담</Link>
@@ -143,7 +143,7 @@ function AppHeader() {
 
 				{/* Header right section buttons */}
 			
-					<div className="hidden sm:flex">
+					<div className="hidden">
 						<button
 							onClick={showHireMeModal}
 							className="sm:small md:text-base bg-cyan-900 justify-start hover:bg-cyan-900 text-white shadow-sm rounded px-5 py-2.5 duration-300"

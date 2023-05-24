@@ -19,11 +19,11 @@ export const aboutMeData = [
 	},
 	{
 		id: uuidv4(),
-		bio: '국무조정실 정부합동부패척결추진단 과장 ',
+		bio: '인사혁신처 윤리정책과장 ',
 	},
 	{
 		id: uuidv4(),
-		bio: '인사혁신처 윤리정책과장 ',
+		bio: '국무조정실 정부합동부패척결추진단 과장 ',
 	},
 	{
 		id: uuidv4(),

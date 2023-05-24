@@ -8,11 +8,11 @@ const contacts = [
 		name: '서울특별시 서초구 서초중앙로 138, 6층(서초동, 우림빌딩)',
 		icon: <FiMapPin />,
 	},
-	{
-		id: 2,
-		name: '화면 상단의 직통전화 클릭',
-		icon: <FiPhone />,
-	},
+	//{
+	//	id: 2,
+	//	name: '화면 상단의 직통전화 클릭',
+	//	icon: <FiPhone />,
+	//},
 	{
 		id: 3,
 		name: 'dh3yun@naver.com',
@@ -47,7 +47,7 @@ function ContactDetails() {
 	return (
 		<div className="w-full lg:w-1/2">
 			<div className="text-left max-w-xl px-6">
-				<h2 className="text-2xl text-primary-dark dark:text-primary-light mt-12 mb-10 justify-center">
+				<h2 className="text-2xl text-primary-dark dark:text-primary-light mt-12 mb-8 justify-center">
 					연락처
 				</h2>
 				<ul>
