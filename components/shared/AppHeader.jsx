@@ -92,17 +92,17 @@ function AppHeader() {
 							: 'hidden'
 					}
 				>
-					<div className="block text-left text-lg sm:text-base md:text-lg lg:text-xl text-primary-dark dark:text-ternary-light hover:text-secondary-dark dark:hover:text-secondary-light  sm:mx-4 mb-2 sm:py-2">
+					<div className="block text-left text-lg sm:text-base md:text-lg lg:text-xl text-primary-dark dark:text-ternary-light hover:text-secondary-dark dark:hover:text-secondary-light  sm:mx-4 md:mx-2 mb-2 sm:py-2 whitespace-nowrap">
 						<Link href="/projects" aria-label="Projects">
 							업무분야
 						</Link>
 					</div>
-					<div className="block text-left text-lg sm:text-base md:text-lg lg:text-xl text-primary-dark dark:text-ternary-light hover:text-secondary-dark dark:hover:text-secondary-light  sm:mx-4 mb-2 sm:py-2 border-t-2 pt-3 sm:pt-2 sm:border-t-0 border-primary-light dark:border-secondary-dark">
+					<div className="block text-left text-lg sm:text-base md:text-lg lg:text-xl text-primary-dark dark:text-ternary-light hover:text-secondary-dark dark:hover:text-secondary-light  sm:mx-4 md:mx-2 mb-2 sm:py-2 whitespace-nowrap border-t-2 pt-3 sm:pt-2 sm:border-t-0 border-primary-light dark:border-secondary-dark">
 						<Link href="/about" aria-label="About Me">
 							약력
 						</Link>
 					</div>
-					<div className="block text-left text-lg sm:text-base md:text-lg lg:text-xl text-primary-dark dark:text-ternary-light hover:text-secondary-dark dark:hover:text-secondary-light  sm:mx-4 mb-2 sm:py-2 border-t-2 pt-3 sm:pt-2 sm:border-t-0 border-primary-light dark:border-secondary-dark">
+					<div className="block text-left text-lg sm:text-base md:text-lg lg:text-xl text-primary-dark dark:text-ternary-light hover:text-secondary-dark dark:hover:text-secondary-light  sm:mx-4 md:mx-2 mb-2 sm:py-2 whitespace-nowrap border-t-2 pt-3 sm:pt-2 sm:border-t-0 border-primary-light dark:border-secondary-dark">
 						<Link href="/contact" aria-label="Contact">
 							상담
 						</Link>
@@ -121,20 +121,20 @@ function AppHeader() {
 				{/* Header links large screen */}
 				<div className="hidden m-0 sm:ml-4 mt-5 sm:mt-3 sm:flex p-5 sm:p-0 justify-center items-center shadow-lg sm:shadow-none">
 					<div
-						className="block text-left text-lg sm:text-base md:text-lg lg:text-xl text-primary-dark dark:text-ternary-light hover:text-secondary-dark dark:hover:text-secondary-light  sm:mx-4 mb-2 sm:py-2"
+						className="block text-left text-lg sm:text-base md:text-lg lg:text-xl text-primary-dark dark:text-ternary-light hover:text-secondary-dark dark:hover:text-secondary-light  sm:mx-4 md:mx-2 mb-2 sm:py-2 whitespace-nowrap"
 						aria-label="Projects"
 					>
 						<Link href="/projects">업무분야</Link>
 					</div>
 					<div
-						className="block text-left text-lg sm:text-base md:text-lg lg:text-xl text-primary-dark dark:text-ternary-light hover:text-secondary-dark dark:hover:text-secondary-light  sm:mx-4 mb-2 sm:py-2"
+						className="block text-left text-lg sm:text-base md:text-lg lg:text-xl text-primary-dark dark:text-ternary-light hover:text-secondary-dark dark:hover:text-secondary-light  sm:mx-4 md:mx-2 mb-2 sm:py-2 whitespace-nowrap"
 						aria-label="About Me"
 					>
 						<Link href="/about">약력</Link>
 					</div>
 
 					<div
-						className="block text-left text-lg sm:text-base md:text-lg lg:text-xl text-primary-dark dark:text-ternary-light hover:text-secondary-dark dark:hover:text-secondary-light  sm:mx-4 mb-2 sm:py-2"
+						className="block text-left text-lg sm:text-base md:text-lg lg:text-xl text-primary-dark dark:text-ternary-light hover:text-secondary-dark dark:hover:text-secondary-light  sm:mx-4 md:mx-2 mb-2 sm:py-2 whitespace-nowrap"
 						aria-label="Contact"
 					>
 						<Link href="/contact">상담</Link>
