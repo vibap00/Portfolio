@@ -44,7 +44,7 @@ function AppBanner() {
 						duration: 0.7,
 						delay: 0.4,
 					}}
-					className="ml-0 md:ml-0 lg:ml-4 mt-6 text-lg md:text-2xl lg:text-2xl xl:text-3xl text-between sm:text-left leading-normal text-gray-500 dark:text-gray-200"
+					className="ml-0 md:ml-0 lg:ml-4 mt-6 text-xl md:text-2xl lg:text-2xl xl:text-3xl sm:text-left leading-normal text-gray-500 dark:text-gray-200"
 				>
 					재해보상 / 소청심사 전문
 				</motion.p>
