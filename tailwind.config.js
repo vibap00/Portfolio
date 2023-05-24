@@ -11,7 +11,10 @@ module.exports = {
 			screens: {
 				'xs': { 'max': '359px' },  // smaller screens
 				's10': { 'min': '360px', 'max': '411px' },  // for 360*760
-				's20': { 'min': '412px', 'max': '810px' }  // for 412*915 and up
+				's20': { 'min': '412px', 'max': '809px' }  // for 412*915 and up
+			},
+			fontSize: {
+				'between': '0.8925rem', // fontsize between 'text-sm' and 'text-base'
 			},
 			colors: {
 				// Light colors

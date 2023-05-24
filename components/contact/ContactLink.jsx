@@ -41,7 +41,7 @@ function ExpertiseDetails() {
                                     {area.name}
                                 </span>
                             </div>
-                            <p className="text-sm md:text-base lg:text-lg ml-9 text-gray-700 dark:text-gray-300" dangerouslySetInnerHTML={{ __html: area.description }}>
+                            <p className="text-between md:text-base lg:text-lg ml-9 text-gray-700 dark:text-gray-300" dangerouslySetInnerHTML={{ __html: area.description }}>
                             </p>
                         </li>
                     ))}

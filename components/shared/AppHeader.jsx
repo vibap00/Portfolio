@@ -87,11 +87,11 @@ function AppHeader() {
 				<div
 					className={
 						showMenu
-							? 'block m-0 sm:ml-4 sm:mt-3 md:flex px-5 py-3 sm:p-0 justify-between items-center shadow-lg sm:shadow-none'
+							? 'block m-0 sm:ml-4 sm:mt-3 md:flex px-2 py-3 sm:p-0 justify-between items-center shadow-lg sm:shadow-none'
 							: 'hidden'
 					}
 				>
-					<div className="block text-left text-lg sm:text-base md:text-lg lg:text-xl text-primary-dark dark:text-ternary-light hover:text-secondary-dark dark:hover:text-secondary-light  sm:mx-4 mb-2 sm:py-2">
+					<div className="block text-left text-lg sm:text-base md:text-lg lg:text-xl text-primary-dark dark:text-ternary-light hover:text-secondary-dark dark:hover:text-secondary-light sm:mx-4 mb-2 sm:py-2">
 						<Link href="/projects" aria-label="Projects">
 							업무분야
 						</Link>
