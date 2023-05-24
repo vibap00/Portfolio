@@ -10,9 +10,9 @@ function AboutMeBio() {
         <div className="md:m-start lg:m-start">
           <Image
             src="/images/profile.jpeg"
-            width={250} // updated size
-            height={250} // updated size
-            className="rounded-lg"
+            width={280}
+            height={280}
+            className="rounded-lg h-[260px] w-[200px] sm:h-[280px] sm:w-[280px]"
             alt="Profile Image"
           />
         </div>
@@ -21,7 +21,7 @@ function AboutMeBio() {
       <div className="w-full sm:w-3/4 text-left sm:text-left flex flex-wrap justify-end">
         {aboutMe.map((bio) => (
           <p
-            className="text-left sm:text-left mb-4 ml-12 sm:ml-0 text-ternary-dark dark:text-ternary-light text-base sm:text-lg w-full md:w-full lg:w-1/2 "
+            className="text-left sm:text-left mb-4 ml-8 s10:ml-6 s20:ml-8 sm:ml-0 text-ternary-dark dark:text-ternary-light text-sm s20:text-base md:text-base lg:text-lg w-full md:w-full lg:w-1/2 "
             key={bio.id}
           >
             &bull; {bio.bio}

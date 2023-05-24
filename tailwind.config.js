@@ -8,11 +8,11 @@ module.exports = {
 	darkMode: 'class',
 	theme: {
 		extend: {
-			spacing: {
-				'-1': '-0.25rem',
-				'-2': '-0.5rem',
-				'-3': '-0.75rem',
-				'-4': '-1rem',},
+			screens: {
+				'xs': { 'max': '359px' },  // smaller screens
+				's10': { 'min': '360px', 'max': '411px' },  // for 360*760
+				's20': { 'min': '412px', 'max': '810px' }  // for 412*915 and up
+			},
 			colors: {
 				// Light colors
 				'primary-light': '#F7F8FC',
