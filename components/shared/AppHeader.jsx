@@ -4,7 +4,6 @@ import { motion } from 'framer-motion';
 import { FiX, FiMenu} from 'react-icons/fi';
 import logo from '../../public/images/main_logo.jpg';
 import Image from 'next/image';
-import HireMeModal from '../HireMeModal';
 import useThemeSwitcher from '../../hooks/useThemeSwitcher';
 
 function AppHeader() {
@@ -107,15 +106,7 @@ function AppHeader() {
 							상담
 						</Link>
 					</div>
-					<div className="hidden border-t-2 pt-3 sm:pt-0 sm:border-t-0 border-primary-light dark:border-secondary-dark">
-						<button
-							onClick={showHireMeModal}
-							className="sm:text-small md:text-base bg-cyan-900 justify-end sm:justify-end lg:justify-end hover:bg-cyan-900 text-white shadow-sm rounded px-5 py-2.5 duration-300"
-							aria-label="Hire Me Button"
-						>
-							직통전화
-						</button>
-					</div>
+					
 				</div>
 
 				{/* Header links large screen */}
@@ -143,15 +134,7 @@ function AppHeader() {
 
 				{/* Header right section buttons */}
 			
-					<div className="hidden">
-						<button
-							onClick={showHireMeModal}
-							className="sm:small md:text-base bg-cyan-900 justify-start hover:bg-cyan-900 text-white shadow-sm rounded px-5 py-2.5 duration-300"
-							aria-label="Hire Me Button"
-						>
-							직통전화
-						</button>
-					</div>	
+					
 				</div>
 		
 			<div>
