@@ -91,17 +91,17 @@ function AppHeader() {
 							: 'hidden'
 					}
 				>
-					<div className="block text-left text-lg sm:text-base md:text-lg lg:text-xl text-primary-dark dark:text-ternary-light hover:text-secondary-dark dark:hover:text-secondary-light sm:mx-4 mb-2 sm:py-2">
+					<div className="sm:hidden block text-left text-lg sm:text-base md:text-lg lg:text-xl text-primary-dark dark:text-ternary-light hover:text-secondary-dark dark:hover:text-secondary-light sm:mx-4 mb-2 sm:py-2">
 						<Link href="/projects" aria-label="Projects">
 							업무분야
 						</Link>
 					</div>
-					<div className="block text-left text-lg sm:text-base md:text-lg lg:text-xl text-primary-dark dark:text-ternary-light hover:text-secondary-dark dark:hover:text-secondary-light  sm:mx-4 mb-2 sm:py-2 border-t-2 pt-3 sm:pt-2 sm:border-t-0 border-primary-light dark:border-secondary-dark">
+					<div className="sm:hidden block text-left text-lg sm:text-base md:text-lg lg:text-xl text-primary-dark dark:text-ternary-light hover:text-secondary-dark dark:hover:text-secondary-light  sm:mx-4 mb-2 sm:py-2 border-t-2 pt-3 sm:pt-2 sm:border-t-0 border-primary-light dark:border-secondary-dark">
 						<Link href="/about" aria-label="About Me">
 							약력
 						</Link>
 					</div>
-					<div className="block text-left text-lg sm:text-base md:text-lg lg:text-xl text-primary-dark dark:text-ternary-light hover:text-secondary-dark dark:hover:text-secondary-light  sm:mx-4 mb-2 sm:py-2 border-t-2 pt-3 sm:pt-2 sm:border-t-0 border-primary-light dark:border-secondary-dark">
+					<div className="sm:hidden block text-left text-lg sm:text-base md:text-lg lg:text-xl text-primary-dark dark:text-ternary-light hover:text-secondary-dark dark:hover:text-secondary-light  sm:mx-4 mb-2 sm:py-2 border-t-2 pt-3 sm:pt-2 sm:border-t-0 border-primary-light dark:border-secondary-dark">
 						<Link href="/contact" aria-label="Contact">
 							상담
 						</Link>
