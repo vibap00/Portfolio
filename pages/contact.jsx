@@ -16,11 +16,12 @@ function contact() {
 					duration: 0.5,
 					delay: 0.1,
 				}}
-				className="container mx-auto flex flex-col-reverse lg:flex-row py-5 lg:py-10 justify-center lg:mt-5"
+				className="container mx-auto flex flex-col-reverse lg:flex-row py-5 lg:py-10 justify-center lg:mt-0"
 			>
 			
 				<ContactLink />
-				<ContactDetails />				
+				<ContactDetails />	
+							
 			</motion.div>
 		</div>
 	);

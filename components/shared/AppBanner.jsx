@@ -60,7 +60,7 @@ function AppBanner() {
 					src="/images/profile_main.jpg"
 					width={500}  // actual image width in pixels
 					height={500} // actual image height in pixels
-					alt="profile_main.jpg"
+					alt="재해보상 상담 / 소청심사 상담"
 				/>
 			</div>
 		</motion.section>
