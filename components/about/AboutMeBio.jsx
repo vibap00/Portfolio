@@ -21,7 +21,7 @@ function AboutMeBio() {
       <div className="w-full sm:w-3/4 text-left sm:text-left flex flex-wrap justify-end">
         {aboutMe.map((bio) => (
           <p
-            className="text-left sm:text-left mb-4 ml-8 s10:ml-2 s20:ml-2 sm:ml-0 text-ternary-dark dark:text-ternary-light text-base s20:text-between2 md:text-between2 lg:text-lg w-full md:w-full lg:w-1/2 "
+            className="text-left sm:text-left mb-4 ml-8 s10:ml-2 s20:ml-2 sm:ml-0 text-ternary-dark dark:text-ternary-light text-base s20:text-between2 md:text-between3 lg:text-lg w-full md:w-full lg:w-1/2 "
             key={bio.id}
           >
             &bull; {bio.bio}
