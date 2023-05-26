@@ -57,7 +57,7 @@ function ContactDetails() {
 								<i className="text-2xl text-neutral-500 dark:text-neutral-400 mr-4 mt-2 mb-4">
 									{contact.icon}
 								</i>
-								<span className="text-between1 s20:text-between1 md:text-between3 lg:text-lg mb-2 text-ternary-dark dark:text-ternary-light">
+								<span className="text-between1 s20:text-between3 md:text-between3 lg:text-lg mb-2 text-ternary-dark dark:text-ternary-light">
 									{contact.name.split("\n").map((item, i) => <p key={i}>{item}</p>)}
 								</span>
 							</a>
