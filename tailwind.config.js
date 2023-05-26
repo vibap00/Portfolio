@@ -15,7 +15,7 @@ module.exports = {
 			},
 			fontSize: {
 				'between1': '0.9425rem', // fontsize between 'text-sm' and 'text-base'
-				'between2': '1.0325rem', // fontsize between 'text-sm' and 'text-base'
+				'between2': '1.0025rem', // fontsize between 'text-sm' and 'text-base'
 				'between3': '1.0525rem', // fontsize between 'text-base' and 'text-lg'
 			},
 			colors: {
