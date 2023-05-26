@@ -18,7 +18,7 @@ function AppFooter() {
 			<div className="pt-12 md:pt-12 lg:pt-16 border-t-2 border-gray-200 border-primary-light dark:border-secondary-dark">
 				<div className="flex flex-col justify-center items-center mb-12 md:mb-14 lg:mb-16">
 					<p className="text-2xl md:text-2xl lg:text-3xl text-primary-dark dark:text-primary-light mb-5">
-						카카오톡 오픈채팅 상담
+						카카오톡 오픈채팅 문의
 					</p>
 				{/* <p className="text-2xl md:text-3xl lg:text-4xl text-primary-dark dark:text-primary-light mb-5">
 						익명 상담
