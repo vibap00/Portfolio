@@ -14,7 +14,7 @@ module.exports = {
 				's20': { 'min': '412px', 'max': '809px' }  // for 412*915 and up
 			},
 			fontSize: {
-				'between1': '0.9625rem', // fontsize between 'text-sm' and 'text-base'
+				'between1': '0.9425rem', // fontsize between 'text-sm' and 'text-base'
 				'between2': '0.9825rem', // fontsize between 'text-sm' and 'text-base'
 				'between3': '1.0525rem', // fontsize between 'text-base' and 'text-lg'
 			},
