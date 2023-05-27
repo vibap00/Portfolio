@@ -27,10 +27,10 @@ function PagesMetaHead({ title, keywords, description }) {
                             "https://ko-kr.facebook.com/people/%EC%9C%A4%EB%8F%99%ED%98%B8/pfbid0hWhmu1znGm1JFy2XP6wAAGzj1TbQiRUQB4rs5wfFbVkX6g7MiudByJdH8FpNdvUul/",
                             "https://blog.naver.com/dh3yun"
                         ]
-						"worksFor": {
+						"worksFor": [
         					"@type": "Organization",
         					"name": "법무법인 YK"
-      					}
+      					]
                     }
                 `}
 			</script>
