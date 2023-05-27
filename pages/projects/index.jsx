@@ -20,16 +20,15 @@ const expertiseSubfieldData = [
 
 const expertiseSubfieldData2 = [
 	{
-	  id: 2,
-	  name: '일반 상담',
-	  description: '익명 상담 가능. 상담 후 사안에 따른 담당 전문가 및 변호사 신속 연결',
-	},
-	{
 		id: 1,
 		name: '일반행정사 업무',
-		description: '출입국관리, 행정서류 작성, (차후 내용 추가)',
+		description: '계약서 작성, 행정서류 작성, 행정심판 대행, 출입국관리, (차후 내용 추가)',
 	},
-	// Add more subfields as needed...
+	{
+		id: 2,
+		name: '그 외 문의',
+		description: '(차후 내용 추가)',
+	  },
   ];
 
 
@@ -62,7 +61,7 @@ function Index() {
 		  ))}
 
 		<div className="mt-28">
-		  <h2 className="text-4xl md:text-5xl lg:text-5xl text-center"> 일반 분야 </h2>
+		  <h2 className="text-4xl md:text-5xl lg:text-5xl text-center"> 일반 업무 </h2>
 
 		{expertiseSubfieldData2.map((subfield) => (
   			<div key={subfield.id} className="text-center">
