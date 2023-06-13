@@ -8,8 +8,8 @@ function PagesMetaHead({ title, keywords, description }) {
 				name="viewport"
 				content="width=device-width, initial-scale=1"
 			/>
-			<meta name="keywords" content={keywords} />
-			<meta name="description" content={description} />
+			<meta name="keywords" content="윤동호, 행정사, 소청심사, 재해보상, 재해보상 상담, 소청심사 상담, 재해보상 전문 상담, 소청심사 전문 상담, 출입국" />
+			<meta name="description" content="오랜 기간 공직에서 소청심사 업무를 전담한 행정사 윤동호가 당신의 편이 되어 도와 드리겠습니다" />
 			<meta charSet="utf-8" />
 			<link rel="icon" href="/" />
 			<title>{title}</title>
