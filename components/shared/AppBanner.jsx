@@ -12,7 +12,7 @@ function AppBanner() {
 			className="flex flex-col sm:justify-between items-center sm:flex-row mt-12 md:mt-12 lg:mt-12 mb-20"
 		>
 			<div className="w-full md:w-2/3 items-center text-center">
-				<motion.h1
+				<motion.p
 					initial={{ opacity: 0 }}
 					animate={{ opacity: 1 }}
 					transition={{
@@ -23,8 +23,8 @@ function AppBanner() {
 					className="ml-0 md:ml-0 lg:ml-4 w-full md:w-1/2 lg:w-1/2 text-3xl md:text-4xl lg:text-4xl xl:text-5xl text-center sm:text-left text-ternary-dark dark:text-primary-light uppercase"
 				>
 					윤동호
-				</motion.h1>
-				<motion.h1
+				</motion.p>
+				<motion.p
 					initial={{ opacity: 0 }}
 					animate={{ opacity: 1 }}
 					transition={{
@@ -35,7 +35,7 @@ function AppBanner() {
 					className="ml-0 md:ml-0 lg:ml-4 mt-4 text-2xl md:text-3xl lg:text-3xl xl:text-4xl text-center sm:text-left text-ternary-dark dark:text-primary-light uppercase"
 				>
 					법무법인YK 전문위원
-				</motion.h1>
+				</motion.p>
 				<motion.p
 					initial={{ opacity: 0 }}
 					animate={{ opacity: 1 }}
